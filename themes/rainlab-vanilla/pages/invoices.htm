@@ -1,0 +1,12 @@
+title = "invoices"
+url = "/invoices"
+layout = "default"
+is_hidden = 0
+
+[invoicesList]
+loadingText = "Loading invoices..."
+
+[needsSubscription]
+subscription = "main"
+==
+{% component 'invoicesList' %}{% component 'needsSubscription' %}
